@@ -1,3 +1,4 @@
+import "./css/auth.css";
 export default function Signin() {
 
   const hideShowPassword=(e)=>{
@@ -21,11 +22,11 @@ export default function Signin() {
           <div className="row g-0">
 
             <div
-              className="col-12 col-xl-7 col-xxl-8 auth-cover-left align-items-center justify-content-center d-none d-xl-flex"
+              className="col-12 col-xl-7 col-xxl-8 auth-cover-left align-items-center justify-content-center d-none d-xl-flex background-signin shadow"
             >
 
               <div className="card shadow-none bg-transparent shadow-none rounded-0 mb-0 border-0">
-                <div className="card-body">
+                <div className="card-body d-none">
                   <img
                     src="/assets/images/login-images/loginv-2.svg"
                     className="img-fluid auth-img-cover-login" width="650"

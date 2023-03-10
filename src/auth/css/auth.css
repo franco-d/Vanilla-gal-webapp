@@ -1,0 +1,12 @@
+/* 
+SINGNING
+*/
+.background-signin {
+  background-image: url("/public/assets/images/login-images/01.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 5px 0px 18px 0px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 0px 18px 0px rgba(0, 0, 0, 0.57);
+  /* background-attachment: fixed */
+}
