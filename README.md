@@ -68,37 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
-// <div className="container">
-    //   <div className='card'>
-    //     <div className='card-header'>
-    //       <h4 className='text-danger'>CRUD REACT MYSQL</h4>
-    //     </div>
-    //     <BrowserRouter>
-    //     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-    //       <div className="container-fluid">
-
-    //         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    //           <span className="navbar-toggler-icon"></span>
-    //         </button>
-
-    //         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-    //           <div className="navbar-nav">
-    //             <Link to="./" className="nav-link active">LIST USER</Link>
-    //             <Link to="user/create" className="nav-link">CREATE USER</Link>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </nav>
-    
-          
-    //       <Routes>
-    //         <Route index element={<ListUser/>} />
-    //         <Route path="user/create" element={<CreateUser/>} />
-    //         <Route path='user/:id/edit' element={<EditUser/>} />
-    //       </Routes>
-    //     </BrowserRouter>
-    //   </div>
-    // </div>
