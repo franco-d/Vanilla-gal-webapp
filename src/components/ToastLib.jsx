@@ -6,7 +6,7 @@ const ToastLib = () => {
   const Notify = () => toast(
 		"Wow so easy!",
 		{
-			position: "bottom-right",
+			position: "bottom-left",
 			autoClose: 5000,
 			hideProgressBar: false,
 			closeOnClick: true,
