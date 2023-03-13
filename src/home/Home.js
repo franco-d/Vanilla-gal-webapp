@@ -1,7 +1,4 @@
-import { toast } from "react-toast"
-
 export default function Home() {
-	const wave = () => toast('Hi there 👋')
 	return (
 		<div className="page-wrapper">
 			<div className="page-content">
@@ -81,7 +78,7 @@ export default function Home() {
 							<div className="card-body">
 								<div className="d-flex align-items-center">
 									<div>
-										<h6 className="mb-0" onClick={wave}>Sales Overview</h6>
+										<h6 className="mb-0">Sales Overview</h6>
 									</div>
 								</div>
 								<div className="d-flex align-items-center ms-auto font-13 gap-2 my-3">
@@ -257,7 +254,6 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	)
